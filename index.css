@@ -1,0 +1,170 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%; 
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*! code starts here !*/
+
+
+.flexbox{
+ display:flex;
+ width:100%;
+  /*
+ border:1px solid black; 
+  */
+ flex-flow:wrap;
+ justify-content:center;
+ justify-content:space-between;
+ width:70%;
+ height:30px;
+ margin-left: auto;
+ margin-right: auto;
+ color:white;
+ font-family: 'Roboto Mono', monospace;
+ padding:5%;
+}
+ .flexbox .flexitem1{
+ background:orange;
+ border-radius: 10%;
+ height:80px;
+ text-align:center;
+}
+.flexbox .flexitem2{
+  background:cyan;
+  border-radius: 10%;
+ height:80px;
+ text-align:center;
+}
+.flexbox .flexitem3{
+  background:yellow;
+  border-radius: 10%;
+ height:80px;
+ text-align:center;
+}
+
+header img{
+  border-radius: 50%;
+  width:20%;
+  float: left;
+  margin-left: 15%;
+}
+h1{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 70px;
+  text-align: center;
+}
+
+.titleinfo p{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  text-align: center;
+  padding: 30px;
+  margin 10px;
+}
+
+.brownbox{
+  background:#DDB9A3;
+  border:1px solid black;
+  font-family: 'Roboto Mono', monospace;
+  text-align:center;
+  width:85%;
+  height:100%;
+  padding:3%;
+  margin-left: auto;
+  margin-right: auto;
+  align:center;
+  text-color:white;
+}
+
+.brownbox .brownp1 p{
+  padding:20px
+  
+}
+.brownbox .brownp2 p{
+padding:20px
+}
+.fire img{
+  width: 6%;
+  display: block;
+  padding: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fire p{
+  font-family: 'Roboto Mono', monospace;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+  width:20%;
+  text-align:center;
+}
+
+.bus img{
+  width: 6%;
+  display: block;
+  padding: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bus p{
+  text-align:center;
+  font-family: 'Roboto Mono', monospace;
+  margin-left: auto;
+  margin-right: auto;
+  width:20%;
+  padding:2%;
+  text-align:center;
+}
+
+.bottompic img{
+  width:100%;
+  height:200px;
+  border:5px;
+  padding:-30%;
+}
